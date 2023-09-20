@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "zwigatofinal",
+    "slug": "zwigatofinal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile":"./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.enact.zwigatofinal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83b6920a-2b14-48d0-89b7-e7cbd57cf49b"
+      }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiendpZ2F0bzEiLCJhIjoiY2xrMjc3cmppMDBnaDNkb2YxaWtoMGRxMCJ9.P3-cdDJhYbNGD6ZuYCE62Q"
+        }
+      ]
+    ]
+  }
+}
